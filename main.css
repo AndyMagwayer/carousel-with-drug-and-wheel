@@ -1181,7 +1181,7 @@ input#day-night:checked + label:after {
 	opacity: 0;
 }
 
-input#day-night:checked ~ .content .clouds {
+input#day-night:checked ~ .content .clouds 
 	top: -10vh;
 	transition: all 3s var(--cbz) 0s;
 	opacity: 1;
